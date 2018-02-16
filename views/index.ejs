@@ -1,5 +1,10 @@
-<% include shared/header.ejs%>
-    <h1><%= title %></h1>
-    <h3><%= name%></h3>
-    <p><%= profession %></p>
+<header class="text-center">
+    <main class="container">
+        <% include shared/header.ejs%>
+        <section class="intro-text">
+            <h1><%= name %></h1>
+            <p><%= profession%></p>
+        </section>
+    </main>
+</header>
 <% include shared/footer.ejs%>

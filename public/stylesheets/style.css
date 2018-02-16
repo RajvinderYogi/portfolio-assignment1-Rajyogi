@@ -122,14 +122,14 @@ hr {
 }
 /* Home Style */
 header {
-	background: url(../img/header-bg.jpg) no-repeat bottom center;
+	background: url(../images/background.jpg) no-repeat bottom center;
 	background-size: cover;
 	color: #cfcfcf;
 	position: relative;
 	height: 100%;
 }
 header p {
-	color: rgba(255,255,255,0.5);
+	color: rgba(255,255,255,0.8);
 	font-size: 18px;
 	font-weight: 300;
 	margin-bottom: 60px;
@@ -137,14 +137,14 @@ header p {
 }
 .intro-text {
 	position: relative;
-	padding-top: 250px;
+	padding-top: 350px;
 	padding-right: 0;
 	padding-left: 0;
-	padding-bottom: 200px;
+	padding-bottom: 0px;
 }
 .intro-text H1 {
 	font-size: 60px;
-	color: #eeeeee;
+	color: #FFFFFF;
 	font-weight: 600;
 }
 .color {
