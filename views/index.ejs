@@ -1,10 +1,12 @@
-<header class="text-center">
-    <main class="container">
+<main class="text-center">
+    <article class="container">
         <% include shared/header.ejs%>
         <section class="intro-text">
             <h1><%= name %></h1>
             <p><%= profession%></p>
+            <a href="/about-me" class="btn btn-default btn-lg page-scroll">Learn More</a>
+            <a href="/contact-me" class="btn btn-default btn-lg page-scroll">Contact Me</a>
         </section>
-    </main>
-</header>
+    </article>
+</main>
 <% include shared/footer.ejs%>
