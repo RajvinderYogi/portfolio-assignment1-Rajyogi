@@ -6,7 +6,7 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Home page', name: 'Rajvinder Singh Yogi', profession:'I am Web Developer/Designer and this is my portfolio website.' });
 });
 router.get('/about-me', function(req, res, next) {
-    res.render('about-me', { title: 'About Me', about :'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh ante facilisis bibendum.' });
+    res.render('about-me', { title: 'About Me', about :'I Design and Develop responsive web application, I am pursuing my Post Graduate diploma in Interactive Design Media - Web from Georgian College of applied Arts - Barrie. I love what I do.' });
 });
 router.get('/services', function(req, res, next) {
     res.render('services', { title: 'Services', profession:'I provide the services in Web Development and and Web Designing' });
