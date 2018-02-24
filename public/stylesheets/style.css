@@ -217,8 +217,12 @@ img.team-img {
 	padding: 0;
 }
 /* Services Section */
+.fancy-back{
+
+}
 #services-section {
-	padding: 100px 0;
+	padding: 100px 100px;
+	background-color: #e3e3e3;
 }
 #services-section h4 {
 	border-bottom: 1px solid #b8dea2;
@@ -226,7 +230,7 @@ img.team-img {
 	display: inline-block;
 }
 .space {
-	margin-top: 235px;
+	margin-top: 150px;
 }
 #services-section i.fa {
 	font-size: 36px;
