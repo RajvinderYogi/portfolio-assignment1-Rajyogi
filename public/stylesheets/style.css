@@ -217,12 +217,9 @@ img.team-img {
 	padding: 0;
 }
 /* Services Section */
-.fancy-back{
-
-}
 #services-section {
 	padding: 100px 100px;
-	background-color: #e3e3e3;
+	background-color: #ECF0F0;;
 }
 #services-section h4 {
 	border-bottom: 1px solid #b8dea2;
@@ -230,7 +227,10 @@ img.team-img {
 	display: inline-block;
 }
 .space {
-	margin-top: 150px;
+	margin-top: 250px;
+}
+.shortspace{
+	margin-top: 50px;
 }
 #services-section i.fa {
 	font-size: 36px;
@@ -238,6 +238,31 @@ img.team-img {
 	color: #71bd46;
 	padding-bottom: 10px;
 	display: block;
+}
+.process {
+
+	width: 125px;
+	height: 125px;
+	padding: 10px 10px;
+	position: relative;
+	text-align: center;
+	margin: 1.5em 7em 1.8em;
+	border-radius: 0 14px 14px 14px;
+	color: #334455;
+	background: #fff;
+
+}
+.process>i{
+	margin-left: 25px;
+}
+.link{
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	width: 120%;
+	height: 0;
+	border-bottom: 3px dashed #fff;
 }
 /* Gallery Section 
 ==============================*/
@@ -350,8 +375,12 @@ ol.type li a:hover {
 /* Contact Section */
 #contact-section {
 	padding: 100px 0;
-	background-color: #f6f6f6;
+	background-image: url("../images/contact-bg.jpg");
 }
+.contact-headings{
+	color: #f6f6f6;
+}
+
 #contact-section form {
 	padding: 30px 0;
 }
@@ -373,7 +402,6 @@ label {
 	line-height: 1.42857143;
 	color: #555;
 	background-color: #fff;
-	background-image: none;
 	border: 1px solid #ccc;
 	border-radius: 2px;
 	-webkit-box-shadow: none;
