@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0f0235ac-ff9e-44ce-9a98-aebfd8dfcc0d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/controllers/index.js" afterPath="$PROJECT_DIR$/controllers/index.js" />
+      <change beforePath="$PROJECT_DIR$/public/images/background.jpg" afterPath="$PROJECT_DIR$/public/images/background.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/contact-bg.jpg" afterPath="$PROJECT_DIR$/public/images/contact-bg.jpg" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
-      <change beforePath="$PROJECT_DIR$/views/contact-me.ejs" afterPath="$PROJECT_DIR$/views/contact-me.ejs" />
-      <change beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
-      <change beforePath="$PROJECT_DIR$/views/services.ejs" afterPath="$PROJECT_DIR$/views/services.ejs" />
-      <change beforePath="$PROJECT_DIR$/views/shared/footer.ejs" afterPath="$PROJECT_DIR$/views/shared/footer.ejs" />
-      <change beforePath="$PROJECT_DIR$/views/shared/header.ejs" afterPath="$PROJECT_DIR$/views/shared/header.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact-me.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contact-me.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/contact-me.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="73" column="42" lean-forward="false" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
+            <state relative-caret-position="104">
+              <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -53,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="380" column="19" lean-forward="false" selection-start-line="380" selection-start-column="19" selection-end-line="380" selection-end-column="19" />
+            <state relative-caret-position="244">
+              <caret line="376" column="53" lean-forward="false" selection-start-line="376" selection-start-column="53" selection-end-line="376" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -124,11 +120,9 @@
       <find>on</find>
       <find>mai</find>
       <find>spa</find>
-      <find>abou</find>
       <find>socai</find>
       <find>socia</find>
       <find>social</find>
-      <find>main</find>
       <find>services</find>
       <find>abo</find>
       <find>i</find>
@@ -140,6 +134,10 @@
       <find>cms</find>
       <find>di</find>
       <find>div</find>
+      <find>abour</find>
+      <find>abou</find>
+      <find>main</find>
+      <find>conta</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -158,8 +156,8 @@
         <option value="$PROJECT_DIR$/views/services.ejs" />
         <option value="$PROJECT_DIR$/controllers/index.js" />
         <option value="$PROJECT_DIR$/views/shared/header.ejs" />
-        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/views/contact-me.ejs" />
+        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
       </list>
     </option>
   </component>
@@ -287,15 +285,15 @@
       <workItem from="1518797036306" duration="12788000" />
       <workItem from="1518896831584" duration="6517000" />
       <workItem from="1519157460365" duration="5212000" />
-      <workItem from="1519496082791" duration="19294000" />
+      <workItem from="1519496082791" duration="20086000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43811000" />
+    <option name="totallyTimeSpent" value="44603000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1796875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -538,17 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/portfolio theme/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="298" column="4" lean-forward="false" selection-start-line="298" selection-start-column="4" selection-end-line="298" selection-end-column="4" />
-          <folding>
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/shared/footer.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -589,18 +576,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+    <entry file="file://$USER_HOME$/portfolio theme/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="380" column="19" lean-forward="false" selection-start-line="380" selection-start-column="19" selection-end-line="380" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="470">
+          <caret line="298" column="4" lean-forward="false" selection-start-line="298" selection-start-column="4" selection-end-line="298" selection-end-column="4" />
+          <folding>
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/contact-me.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="73" column="42" lean-forward="false" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
+        <state relative-caret-position="104">
+          <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="376" column="53" lean-forward="false" selection-start-line="376" selection-start-column="53" selection-end-line="376" selection-end-column="53" />
           <folding />
         </state>
       </provider>
