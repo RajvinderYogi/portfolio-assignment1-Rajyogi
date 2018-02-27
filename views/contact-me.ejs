@@ -9,9 +9,9 @@
             <h4 class="contact-headings"><%= subtitle1%></h4>
             <hr>
             <aside class="shortspace"></aside>
-            <p><a href="https://www.google.ca/maps/place/Georgian+College/@44.4120866,-79.6713208,17z/data=!3m1!4b1!4m5!3m4!1s0x882aa3724576ca87:0x81218608e743d1c0!8m2!3d44.4120866!4d-79.6691321?dcr=0" target="_blank"><i class="fa fa-map-marker"></i><%= address%></a></p>
-            <p><a href="mailto:rajvinder.yogi@yahoo.com"><i class="fa fa-envelope-o"></i><%= email%></a></p>
-            <p><a href="tel:+1 780 781 3197"><i class="fa fa-phone"></i><%= tel%></a></p>
+            <p><a href="<%= addressLink%>" target="_blank"><i class="fa fa-map-marker"></i><%= address%></a></p>
+            <p><a href="<%= emailLink%>"><i class="fa fa-envelope-o"></i><%= email%></a></p>
+            <p><a href="<%= telLink%>"><i class="fa fa-phone"></i><%= tel%></a></p>
             <aside class="shortspace"></aside>
             <h4 class="contact-headings"><%= subtitle2%></h4>
             <hr>
@@ -47,15 +47,13 @@
                             <p class="help-block text-danger"></p>
                         </aside>
                     </article>
-
                 </section>
-
                 <article class="form-group">
                     <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message*" required></textarea>
                     <p class="help-block text-danger"></p>
                 </article>
                 <p class="contact-headings"><%= infomsg %></p>
-            <aside id="success"></aside>
+                <aside id="success"></aside>
                 <button type="submit" class="btn btn-default"><%= button%></button>
             </form>
         </section>

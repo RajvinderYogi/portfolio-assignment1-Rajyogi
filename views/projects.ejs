@@ -1,4 +1,90 @@
 <% include shared/header.ejs%>
-<h1><%= title %></h1>
-<p><%= profession %></p>
+
+<section id="works-section">
+    <section class="container"> <!-- Container -->
+        <aside class="section-title">
+            <h2><%= title%></h2>
+            <hr>
+            <aside class="clearfix"></aside>
+        </aside>
+
+        <section class="row">
+            <section class="portfolio-items">
+                <article class="col-sm-6 col-md-4 col-lg-4">
+                    <aside class="portfolio-item">
+                        <article class="hover-bg"> <a href="<%= classicCar%>/" target="_blank">
+                                <aside class="hover-text">
+                                    <h4><%= Project1Title %></h4>
+                                    <strong><%= languageUsed %></strong><br>
+                                    <small><%= launch %></small>
+                                    <aside class="clearfix"></aside>
+                                </aside>
+                                <img src="<%= classicarPicture%>" class="img-responsive" alt="Classic Cars"> </a> </article>
+                    </aside>
+                </article>
+                <article class="col-sm-6 col-md-4 col-lg-4">
+                    <aside class="portfolio-item">
+                        <article class="hover-bg"> <a href="<%= cms %>" target="_blank">
+                                <aside class="hover-text">
+                                    <h4><%= Project2Title %></h4>
+                                    <strong><%= languageUsed2 %></strong><br>
+                                    <small><%= launch %></small>
+                                    <aside class="clearfix"></aside>
+                                    <aside class="clearfix"></aside>
+                                </aside>
+                                <img src="<%= cmsPicture%>" class="img-responsive" alt="CMS"> </a> </article>
+                    </aside>
+                </article>
+                <article class="col-sm-6 col-md-4 col-lg-4">
+                    <aside class="portfolio-item">
+                        <article class="hover-bg"> <a href="<%= musicStore%>" target="_blank">
+                                <aside class="hover-text">
+                                    <h4><%= Project3Title %></h4>
+                                    <strong><%= languageUsed %></strong><br>
+                                    <small><%= launch %></small>
+                                    <aside class="clearfix"></aside>
+                                </aside>
+                                <img src="<%= musicStorePicture%>" class="img-responsive" alt="Music Store"> </a> </article>
+                    </aside>
+                </article>
+                <article class="col-sm-6 col-md-4 col-lg-4">
+                    <aside class="portfolio-item">
+                        <article class="hover-bg"> <a href="<%= automoblox%>" target="_blank">
+                                <aside class="hover-text">
+                                    <h4><%= Project4Title %></h4>
+                                    <strong><%= languageUsed3 %></strong><br>
+                                    <small><%= launch %></small>
+                                    <aside class="clearfix"></aside>
+                                </aside>
+                                <img src="<%= automobloxPicture%>" class="img-responsive" alt="Automoblox"> </a> </article>
+                    </aside>
+                </article>
+                <article class="col-sm-6 col-md-4 col-lg-4">
+                    <aside class="portfolio-item">
+                        <article class="hover-bg"> <a href="<%= talkingApp%>" target="_blank">
+                                <aside class="hover-text">
+                                    <h4><%= Project5Title %></h4>
+                                    <strong><%= languageUsed4 %></strong><br>
+                                    <small><%= launch %></small>
+                                    <aside class="clearfix"></aside>
+                                </aside>
+                                <img src="<%= TalkingAppPicture %>" class="img-responsive" alt="Mike - Assistant"> </a> </article>
+                    </aside>
+                </article>
+                <article class="col-sm-6 col-md-4 col-lg-4">
+                    <aside class="portfolio-item">
+                        <article class="hover-bg"> <a href="<%= rayban%>" target="_blank">
+                                <aside class="hover-text">
+                                    <h4><%= Project6Title %></h4>
+                                    <strong><%= languageUsed3 %></strong><br>
+                                    <small><%= launch %></small>
+                                    <aside class="clearfix"></aside>
+                                </aside>
+                                <img src="<%= raybanPicture%>" class="img-responsive" alt="Rayban Shopping"> </a> </article>
+                    </aside>
+                </article>
+            </section>
+        </section>
+    </section>
+</section>
 <% include shared/footer.ejs%>
